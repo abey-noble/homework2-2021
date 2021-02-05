@@ -1,5 +1,5 @@
 body {
-    font: Times New Roman, Sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background: #000000;
     /* foreground white I don't know how to do is it just color*/
     color: #ffffff;
@@ -13,7 +13,8 @@ h1 {
 
 h2 {
     font-size: 32px;
-    text-shadow: #808080, 4px, 4px, 2px;
+    /* don't use commas do without */
+    text-shadow: 4px 4px 2px #808080;
 }
 
 p {
@@ -26,6 +27,8 @@ img {
     /* how do you center an image */
     width: 550px;
     /* proper aspect ratio? */
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -51,12 +54,13 @@ div {
     text-align: right;
 }
 
-#yellow.p #yellow.h2  {
+#yellow p {
     color: #000000;
 }
 
-#yellow.h2 {
-    text-shadow: #c7e2c7 4px, 4px, 2px;
+#yellow h2 {
+    color: #000000;
+    text-shadow: 4px 4px 2px #c7e2c7;
 }
 
 #green {
